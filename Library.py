@@ -10,7 +10,7 @@ def stillHaveChance(trytimes, totalTimes):
 def tryTimesLeft(trytimes, totaltimes):
     return totaltimes - trytimes
 
-def isValidInput(guessNum)
+def isValidInput(guessNum):
     try:
         int(guessNum)
         if int(guessNum) < 1 or int(guessNum) > 99:
